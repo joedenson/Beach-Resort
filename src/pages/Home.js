@@ -6,6 +6,7 @@ import Services from '../components/Services';
 import FeaturedRooms from '../components/FeaturedRooms';
 
 
+
 const Home = () => {
     return (
         <>
@@ -16,6 +17,7 @@ const Home = () => {
             </Hero>
             <Services />
             <FeaturedRooms />
+
         </>
 
     );
