@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import items from './data';
-import Client from './Contentful';
-
 
 
 
@@ -29,17 +27,6 @@ class RoomProvider extends Component {
     };
 
     //getData
-
-    getData = async () => {
-        try {
-            let response = await Client.getEntries({
-                content_type: 'beachResortRoom'
-            });
-        }
-        catch (error) {
-            console.log(error)
-        }
-    }
 
 
     componentDidMount() {
